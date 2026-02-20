@@ -27,8 +27,8 @@ export default {
     },
     extend: {
       fontFamily: {
-        sans: ['Inter var', 'SF Pro Display', 'system-ui', 'sans-serif'],
-        display: ['SF Pro Display', 'Inter var', 'system-ui', 'sans-serif'],
+        sans: ['Inter', 'system-ui', 'sans-serif'],
+        display: ['Inter', 'system-ui', 'sans-serif'],
       },
       colors: {
         border: 'hsl(var(--border))',
@@ -39,6 +39,7 @@ export default {
         primary: {
           DEFAULT: 'hsl(var(--primary))',
           foreground: 'hsl(var(--primary-foreground))',
+          hover: 'hsl(var(--primary-hover))',
         },
         secondary: {
           DEFAULT: 'hsl(var(--secondary))',
@@ -48,6 +49,7 @@ export default {
           DEFAULT: 'hsl(var(--destructive))',
           foreground: 'hsl(var(--destructive-foreground))',
         },
+        success: 'hsl(var(--success))',
         muted: {
           DEFAULT: 'hsl(var(--muted))',
           foreground: 'hsl(var(--muted-foreground))',
@@ -83,18 +85,17 @@ export default {
         },
       },
       borderRadius: {
-        lg: 'var(--radius)',
-        md: 'calc(var(--radius) - 2px)',
-        sm: 'calc(var(--radius) - 4px)',
+        lg: '12px',
+        md: '8px',
+        sm: '4px',
       },
       transitionProperty: {
         width: 'width',
         height: 'height',
       },
       boxShadow: {
-        subtle:
-          '0 1px 3px 0 rgba(0, 0, 0, 0.05), 0 1px 2px 0 rgba(0, 0, 0, 0.03)',
-        elevation: '0 4px 20px rgba(0, 0, 0, 0.05)',
+        card: '0px 1px 3px 0px rgba(15, 23, 42, 0.08)',
+        'card-hover': '0px 4px 8px 0px rgba(15, 23, 42, 0.12)',
       },
       transitionTimingFunction: {
         apple: 'cubic-bezier(0.42, 0, 0.58, 1)',

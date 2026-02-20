@@ -4,6 +4,7 @@ import { Toaster } from '@/components/ui/toaster'
 import { Toaster as Sonner } from '@/components/ui/sonner'
 import { TooltipProvider } from '@/components/ui/tooltip'
 import Index from './pages/Index'
+import Details from './pages/Details'
 import NotFound from './pages/NotFound'
 import Layout from './components/Layout'
 
@@ -16,10 +17,11 @@ const App = () => (
   >
     <TooltipProvider>
       <Toaster />
-      <Sonner />
+      <Sonner richColors position="top-right" />
       <Routes>
         <Route element={<Layout />}>
           <Route path="/" element={<Index />} />
+          <Route path="/details" element={<Details />} />
           {/* ADD ALL CUSTOM ROUTES MUST BE ADDED HERE */}
         </Route>
         <Route path="*" element={<NotFound />} />
