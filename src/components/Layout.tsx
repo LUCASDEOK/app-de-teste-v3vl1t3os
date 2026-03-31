@@ -2,11 +2,7 @@ import { Outlet } from 'react-router-dom'
 
 const Header = () => (
   <header className="fixed top-0 left-0 right-0 z-50 bg-card border-b h-14 md:h-16 flex items-center">
-    <div className="container mx-auto px-4 sm:px-6 lg:px-8 flex items-center">
-      <span className="text-xl md:text-2xl" role="img" aria-label="happy face">
-        😊
-      </span>
-    </div>
+    <div className="container mx-auto px-4 sm:px-6 lg:px-8 flex items-center"></div>
   </header>
 )
 

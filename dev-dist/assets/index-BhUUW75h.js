@@ -29653,15 +29653,7 @@ var NotFound = () => {
 var NotFound_default = NotFound;
 var Header = () => /* @__PURE__ */ (0, import_jsx_runtime.jsx)("header", {
 	className: "fixed top-0 left-0 right-0 z-50 bg-card border-b h-14 md:h-16 flex items-center",
-	children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
-		className: "container mx-auto px-4 sm:px-6 lg:px-8 flex items-center",
-		children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", {
-			className: "text-xl md:text-2xl",
-			role: "img",
-			"aria-label": "happy face",
-			children: "😊"
-		})
-	})
+	children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", { className: "container mx-auto px-4 sm:px-6 lg:px-8 flex items-center" })
 });
 var Footer = () => /* @__PURE__ */ (0, import_jsx_runtime.jsx)("footer", {
 	className: "border-t bg-card",
@@ -29719,4 +29711,4 @@ var App = () => /* @__PURE__ */ (0, import_jsx_runtime.jsx)(BrowserRouter, {
 var App_default = App;
 (0, import_client.createRoot)(document.getElementById("root")).render(/* @__PURE__ */ (0, import_jsx_runtime.jsx)(App_default, {}));
 
-//# sourceMappingURL=index-CBYjIAPU.js.map
+//# sourceMappingURL=index-BhUUW75h.js.map
