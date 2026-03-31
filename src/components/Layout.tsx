@@ -10,6 +10,9 @@ const Header = () => (
         aria-label="Home"
       >
         <Box className="h-6 w-6 sm:h-7 sm:w-7 text-primary" />
+        <span className="font-semibold text-lg tracking-tight">
+          App de Teste
+        </span>
       </Link>
     </div>
   </header>
