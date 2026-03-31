@@ -10,13 +10,6 @@ const Header = () => (
         aria-label="Home"
       >
         <Box className="h-6 w-6 sm:h-7 sm:w-7 text-primary" />
-        <span
-          className="text-xl sm:text-2xl leading-none"
-          role="img"
-          aria-label="happy face"
-        >
-          😊
-        </span>
       </Link>
     </div>
   </header>
