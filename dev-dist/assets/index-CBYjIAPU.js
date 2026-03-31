@@ -18921,20 +18921,6 @@ var Settings = createLucideIcon("settings", [["path", {
 	r: "3",
 	key: "1v7zrd"
 }]]);
-var TestTube = createLucideIcon("test-tube", [
-	["path", {
-		d: "M14.5 2v17.5c0 1.4-1.1 2.5-2.5 2.5c-1.4 0-2.5-1.1-2.5-2.5V2",
-		key: "125lnx"
-	}],
-	["path", {
-		d: "M8.5 2h7",
-		key: "csnxdl"
-	}],
-	["path", {
-		d: "M14.5 16h-5",
-		key: "1ox875"
-	}]
-]);
 var X = createLucideIcon("x", [["path", {
 	d: "M18 6 6 18",
 	key: "1bl5f8"
@@ -29667,14 +29653,14 @@ var NotFound = () => {
 var NotFound_default = NotFound;
 var Header = () => /* @__PURE__ */ (0, import_jsx_runtime.jsx)("header", {
 	className: "fixed top-0 left-0 right-0 z-50 bg-card border-b h-14 md:h-16 flex items-center",
-	children: /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+	children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
 		className: "container mx-auto px-4 sm:px-6 lg:px-8 flex items-center",
-		children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)(TestTube, { className: "h-6 w-6 md:h-8 md:w-8 text-primary" }), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", {
-			className: "ml-3 text-xl md:text-2xl",
+		children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", {
+			className: "text-xl md:text-2xl",
 			role: "img",
 			"aria-label": "happy face",
 			children: "😊"
-		})]
+		})
 	})
 });
 var Footer = () => /* @__PURE__ */ (0, import_jsx_runtime.jsx)("footer", {
@@ -29733,4 +29719,4 @@ var App = () => /* @__PURE__ */ (0, import_jsx_runtime.jsx)(BrowserRouter, {
 var App_default = App;
 (0, import_client.createRoot)(document.getElementById("root")).render(/* @__PURE__ */ (0, import_jsx_runtime.jsx)(App_default, {}));
 
-//# sourceMappingURL=index-CA5ZKdx2.js.map
+//# sourceMappingURL=index-CBYjIAPU.js.map
