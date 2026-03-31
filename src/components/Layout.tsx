@@ -1,8 +1,24 @@
-import { Outlet } from 'react-router-dom'
+import { Outlet, Link } from 'react-router-dom'
+import { Box } from 'lucide-react'
 
 const Header = () => (
-  <header className="fixed top-0 left-0 right-0 z-50 bg-card border-b h-14 md:h-16 flex items-center">
-    <div className="container mx-auto px-4 sm:px-6 lg:px-8 flex items-center"></div>
+  <header className="fixed top-0 left-0 right-0 z-50 bg-card border-b h-14 md:h-16 flex items-center shadow-sm">
+    <div className="container mx-auto px-4 sm:px-6 lg:px-8 flex items-center">
+      <Link
+        to="/"
+        className="flex items-center gap-2 sm:gap-3 transition-opacity hover:opacity-80"
+        aria-label="Home"
+      >
+        <Box className="h-6 w-6 sm:h-7 sm:w-7 text-primary" />
+        <span
+          className="text-xl sm:text-2xl leading-none"
+          role="img"
+          aria-label="happy face"
+        >
+          😊
+        </span>
+      </Link>
+    </div>
   </header>
 )
 

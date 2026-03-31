@@ -18877,6 +18877,20 @@ var ArrowRight = createLucideIcon("arrow-right", [["path", {
 	d: "m12 5 7 7-7 7",
 	key: "xquz4c"
 }]]);
+var Box = createLucideIcon("box", [
+	["path", {
+		d: "M21 8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16Z",
+		key: "hh9hay"
+	}],
+	["path", {
+		d: "m3.3 7 8.7 5 8.7-5",
+		key: "g66t2b"
+	}],
+	["path", {
+		d: "M12 22V12",
+		key: "d0xqtd"
+	}]
+]);
 var Check = createLucideIcon("check", [["path", {
 	d: "M20 6 9 17l-5-5",
 	key: "1gmf2c"
@@ -29652,8 +29666,21 @@ var NotFound = () => {
 };
 var NotFound_default = NotFound;
 var Header = () => /* @__PURE__ */ (0, import_jsx_runtime.jsx)("header", {
-	className: "fixed top-0 left-0 right-0 z-50 bg-card border-b h-14 md:h-16 flex items-center",
-	children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", { className: "container mx-auto px-4 sm:px-6 lg:px-8 flex items-center" })
+	className: "fixed top-0 left-0 right-0 z-50 bg-card border-b h-14 md:h-16 flex items-center shadow-sm",
+	children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
+		className: "container mx-auto px-4 sm:px-6 lg:px-8 flex items-center",
+		children: /* @__PURE__ */ (0, import_jsx_runtime.jsxs)(Link, {
+			to: "/",
+			className: "flex items-center gap-2 sm:gap-3 transition-opacity hover:opacity-80",
+			"aria-label": "Home",
+			children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)(Box, { className: "h-6 w-6 sm:h-7 sm:w-7 text-primary" }), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", {
+				className: "text-xl sm:text-2xl leading-none",
+				role: "img",
+				"aria-label": "happy face",
+				children: "😊"
+			})]
+		})
+	})
 });
 var Footer = () => /* @__PURE__ */ (0, import_jsx_runtime.jsx)("footer", {
 	className: "border-t bg-card",
@@ -29711,4 +29738,4 @@ var App = () => /* @__PURE__ */ (0, import_jsx_runtime.jsx)(BrowserRouter, {
 var App_default = App;
 (0, import_client.createRoot)(document.getElementById("root")).render(/* @__PURE__ */ (0, import_jsx_runtime.jsx)(App_default, {}));
 
-//# sourceMappingURL=index-BhUUW75h.js.map
+//# sourceMappingURL=index-DZhSzgpx.js.map
