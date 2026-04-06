@@ -6,13 +6,10 @@ const Header = () => (
     <div className="container mx-auto px-4 sm:px-6 lg:px-8 flex items-center">
       <Link
         to="/"
-        className="flex items-center gap-2 sm:gap-3 transition-opacity hover:opacity-80"
+        className="flex items-center transition-opacity hover:opacity-80"
         aria-label="Home"
       >
         <Box className="h-6 w-6 sm:h-7 sm:w-7 text-primary" />
-        <span className="font-semibold text-lg tracking-tight">
-          App de Teste
-        </span>
       </Link>
     </div>
   </header>

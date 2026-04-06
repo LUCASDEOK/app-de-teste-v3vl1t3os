@@ -1,19 +1,18 @@
 // Setup type definitions for built-in Supabase Runtime APIs
-import "jsr:@supabase/functions-js/edge-runtime.d.ts";
+import 'jsr:@supabase/functions-js/edge-runtime.d.ts'
 interface reqPayload {
-  name: string;
+  name: string
 }
 
-console.info('server started');
+console.info('server started')
 
 Deno.serve(async (req: Request) => {
-  const { name }: reqPayload = await req.json();
+  const { name }: reqPayload = await req.json()
   const data = {
     message: `Hello ${name}!`,
-  };
+  }
 
-  return new Response(
-    JSON.stringify(data),
-    { headers: { 'Content-Type': 'application/json', 'Connection': 'keep-alive' }}
-  );
-});
+  return new Response(JSON.stringify(data), {
+    headers: { 'Content-Type': 'application/json', Connection: 'keep-alive' },
+  })
+})
