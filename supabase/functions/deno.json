@@ -1,5 +1,6 @@
 {
   "_versions": {
-    "rapid-api": 3
+    "rapid-api": 4,
+    "smart-endpoint": 2
   }
 }
