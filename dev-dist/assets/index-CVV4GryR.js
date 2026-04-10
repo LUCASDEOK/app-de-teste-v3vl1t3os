@@ -29669,11 +29669,14 @@ var Header = () => /* @__PURE__ */ (0, import_jsx_runtime.jsx)("header", {
 	className: "fixed top-0 left-0 right-0 z-50 bg-card border-b h-14 md:h-16 flex items-center shadow-sm",
 	children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
 		className: "container mx-auto px-4 sm:px-6 lg:px-8 flex items-center",
-		children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)(Link, {
+		children: /* @__PURE__ */ (0, import_jsx_runtime.jsxs)(Link, {
 			to: "/",
-			className: "flex items-center transition-opacity hover:opacity-80",
+			className: "flex items-center gap-2.5 transition-opacity hover:opacity-80",
 			"aria-label": "Home",
-			children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)(Box, { className: "h-6 w-6 sm:h-7 sm:w-7 text-primary" })
+			children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)(Box, { className: "h-6 w-6 sm:h-7 sm:w-7 text-primary" }), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", {
+				className: "font-semibold text-lg text-foreground tracking-tight",
+				children: "App de Teste"
+			})]
 		})
 	})
 });
@@ -29733,4 +29736,4 @@ var App = () => /* @__PURE__ */ (0, import_jsx_runtime.jsx)(BrowserRouter, {
 var App_default = App;
 (0, import_client.createRoot)(document.getElementById("root")).render(/* @__PURE__ */ (0, import_jsx_runtime.jsx)(App_default, {}));
 
-//# sourceMappingURL=index-CJRNFYT5.js.map
+//# sourceMappingURL=index-CVV4GryR.js.map
