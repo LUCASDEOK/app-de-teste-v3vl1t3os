@@ -9,7 +9,7 @@ console.info('server started')
 Deno.serve(async (req: Request) => {
   const { name }: reqPayload = await req.json()
   const data = {
-    message: `Hello ${name} 222223`,
+    message: `Hello ${name} 222223!@`,
   }
 
   return new Response(JSON.stringify(data), {
