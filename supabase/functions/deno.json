@@ -1,6 +1,7 @@
 {
   "_versions": {
     "rapid-api": 11,
-    "smart-endpoint": 3
+    "smart-endpoint": 3,
+    "log-a": 1
   }
 }
